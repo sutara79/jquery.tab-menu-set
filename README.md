@@ -60,7 +60,7 @@ false
 ## Author
 Yuusaku Miyazaki (宮崎 雄策)
 
-- [Mail](toumin.m7@gmail.com)
+- Mail: toumin.m7@gmail.com
 - [Blog](http://d.hatena.ne.jp/sutara_lumpur/20120424/1335269821)
 
 
