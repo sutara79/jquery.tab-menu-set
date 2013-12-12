@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* タブ領域 */
+.jqtab * {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+/* タブメニュー */
+.jqtab_title {
+	padding: 8px 0;
+}
+.jqtab_title > * {
+	float: left;
+	margin-right: 8px;
+	list-style-type: none;
+}
+.jqtab_title > * > a {
+	cursor: pointer;
+	display: block;
+	color: #1c94c4;
+	border: 1px solid #333;
+	border-bottom: 0px;
+	border-radius: 4px 4px 0px 0px;
+	text-decoration: none;
+	padding: 8px;
+	background: #def;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#eeffff', endColorstr='#aaddee');
+	background-image: linear-gradient(to bottom, #eeffff, #aaddee);
+}
+.jqtab_title > * > a.jqtab_hover {
+	color: #db5f00;
+	z-index: 0;
+	background: #fed;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffeeee', endColorstr='#ffbbaa');
+	background-image: linear-gradient(to bottom, #ffeeee, #ffbbaa);
+}
+.jqtab_title > * > a.jqtab_selected {
+	color: #db5f00;
+	z-index: 100 !important;
+	background: #fed;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffeeee', endColorstr='#eeaa99');
+	background-image: linear-gradient(to bottom, #ffeeee, #eeaa99);
+}
+/* タブ本文 */
+.jqtab_body {
+	clear: both;
+	position: relative;
+	top: -1px;
+}
+.jqtab_body > * {
+	display: none;
+	border: 1px solid #333;
+	border-radius: 0px 4px 4px 4px;
+	background: #eee;
+	padding: 8px;
+	line-height: 140%;
+}
