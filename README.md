@@ -3,6 +3,9 @@
 ## Demo
 http://usamimi.info/~sutara/sample/tabMenuSet/
 
+## JSDoc
+http://usamimi.info/~sutara/sample/tabMenuSet/JSDoc/
+
 ## Usage
 
 ###### HTML

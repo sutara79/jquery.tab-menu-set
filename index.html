@@ -2,7 +2,7 @@
 <html lang="ja">
 	<head>
 		<meta charset="UTF-8">
-		<title>jquery.tabMenuSet.1.1.js</title>
+		<title>jquery.tabMenuSet</title>
 		<link rel="stylesheet" href="jquery.tabMenuSet.css">
 		<style>
 			.jqtab {
@@ -40,8 +40,8 @@
 		</style>
 	</head>
 	<body>
-		<h1>jquery.tabMenuSet.1.1.js</h1>
-		<time>update: 2013-12-12</time>
+		<h1>jquery.tabMenuSet</h1>
+		<time>version: 1.1.1 (2014-06-19)</time>
 		<section>
 			<h3>例1: 基本</h3>
 			<pre>$('#tabset1').tabMenuSet();</pre>
@@ -133,14 +133,11 @@
 
 		<!-- JavaScript -->
 		<script src="http://code.jquery.com/jquery.min.js"></script>
-		<script src="jquery.tabMenuSet.1.1.js"></script>
+		<script src="jquery.tabMenuSet.1.1.1.js"></script>
 		<script>
-			// ページ読み込み完了後に、下記の設定を行う
-			jQuery(document).ready(function($){
-				$('#tabset1').tabMenuSet();
-				$('#tabset2').tabMenuSet({init_tab: 1});
-				$('#tabset3').tabMenuSet({chg_by_hover: true});
-			});
+			$('#tabset1').tabMenuSet();
+			$('#tabset2').tabMenuSet({init_tab: 1});
+			$('#tabset3').tabMenuSet({chg_by_hover: true});
 		</script>
 	</body>
 </html>
