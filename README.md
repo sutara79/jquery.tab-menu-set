@@ -1,10 +1,11 @@
-# jquery.tabMenuSet.js
+# jquery.tab-menu-set
+jQuery plugin for simple tabs.
 
 ## Demo
-http://usamimi.info/~sutara/sample/tabMenuSet/
+http://usamimi.info/~sutara/sample/tab-menu-set/
 
 ## JSDoc
-http://usamimi.info/~sutara/sample/tabMenuSet/JSDoc/
+http://usamimi.info/~sutara/sample/tab-menu-set/jsdoc/
 
 ## Usage
 

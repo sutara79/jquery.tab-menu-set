@@ -1,4 +1,8 @@
-# Change Log
+# Change Log for jquery.tab-menu-set
+
+### 1.1.2 (2014-08-09)
+- Plugin name was changed.  
+  (プラグイン名、ファイル名、フォルダ名を変更しました。)
 
 ### v1.1.1 (2014-06-19)
 - JSDoc was created.  
