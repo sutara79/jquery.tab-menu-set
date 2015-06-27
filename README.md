@@ -4,9 +4,6 @@ jQuery plugin for simple tabs.
 ## Demo
 http://usamimi.info/~sutara/sample/tab-menu-set/
 
-## JSDoc
-http://usamimi.info/~sutara/sample/tab-menu-set/jsdoc/
-
 ## Usage
 
 ###### HTML
@@ -66,7 +63,6 @@ Yuusaku Miyazaki (宮崎 雄策)
 
 - Mail: toumin.m7@gmail.com
 - [Blog](http://d.hatena.ne.jp/sutara_lumpur/20120424/1335269821)
-
 
 ## License
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
